@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PostContainer(){
- return 
+const PostContainer = props => {
+ return console.log(props);
 }
-export default PostConatainer;
+export default PostContainer;
