@@ -7,6 +7,10 @@ const SearchBar = () => {
   <i class="fab fa-instagram fa-2x"></i>
   <p>Instagram </p>
   </div>
+  <form >
+		        <input type="text" name="search" placeholder="Search"/>
+          
+		</form>
   <div className="icons">
   <i class="far fa-compass fa-2x"></i>
   <i class="far fa-heart fa-2x"></i>
