@@ -1,11 +1,12 @@
 .post-container{
  width:50%;
- margin:0 auto 20px auto;
+ margin:20px auto;
  background: white;
  text-align:center;
  display:flex;
  flex-direction:column;
  border:1px solid black;
+
 }
 .thumb{
  display:flex;
