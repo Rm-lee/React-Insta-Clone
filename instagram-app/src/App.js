@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 import dummyData from './dummy-data';
 import PostContainer from './components/PostContainer/PostContainer'
+
 import './App.css';
 
 class App extends React.Component {
-  constructor(){
+  constructor() {
     super();
-     this.state = {
-       postData:[]
-      };
+    this.state = {
+      postData: dummyData
+    };
   }
-  
+
   render() {
-    
+
     return (
       <div className="app">
-      {dummyData.map(obj => (
-        <PostContainer data={obj}/>
-      ))           
-      }
+        {this.state.postData.map(obj => (
+          <PostContainer key={obj.id} data={obj} />
+        ))
+        }
       </div>
     );
   }
