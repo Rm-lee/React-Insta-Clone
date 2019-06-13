@@ -1,0 +1,15 @@
+.container{
+ width:50%;
+ margin:20px auto;
+ background: lightgrey;
+ text-align:center;
+ display:flex;
+ flex-direction:column;
+}
+.thumb{
+ display:flex;
+ flex-direction:row;
+}
+.thumb img{
+ 
+}

@@ -1,0 +1,8 @@
+.comment{
+ color:blue;
+ background:grey;
+ display:flex;
+ flex-direction:column;
+ text-align: left;
+ margin-bottom:10px;
+}
