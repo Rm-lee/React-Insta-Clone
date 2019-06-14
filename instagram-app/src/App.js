@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar/SearchBar'
 
 import './App.css';
 
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
