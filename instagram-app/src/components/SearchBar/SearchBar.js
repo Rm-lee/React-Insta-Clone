@@ -4,7 +4,7 @@ const SearchBar = () => {
  return (
   <div className='search-bar'>
   <div className="logo">
-  <i class="fab fa-instagram fa-2x"></i>
+  <i className="fab fa-instagram fa-2x"></i>
   <p>Instagram </p>
   </div>
   <form >
@@ -12,9 +12,9 @@ const SearchBar = () => {
           
 		</form>
   <div className="icons">
-  <i class="far fa-compass "></i>
-  <i class="far fa-heart "></i>
-  <i class="far fa-user "></i>
+  <i className="far fa-compass "></i>
+  <i className="far fa-heart "></i>
+  <i className="far fa-user "></i>
   </div>
   </div>
  );
