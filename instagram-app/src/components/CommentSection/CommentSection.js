@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './CommentSection.css'
-const CommentSection = props => {
+
+class CommentSection extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      props
+    };
+    
+  }
+render() {
 
 
   return (
     <div className="comment">
-      <div>{props.data.username}</div>
-      <div>{props.data.text}</div>
+      <div>{this.state.props.data.username}</div>
+      <div>{this.state.props.data.text}</div>
     </div>
   );
+}
 }
 export default CommentSection;
