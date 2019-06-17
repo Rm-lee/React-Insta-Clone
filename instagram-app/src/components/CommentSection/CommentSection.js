@@ -18,7 +18,6 @@ class CommentSection extends Component {
   };
 
   addNewComment = event => { 
-    console.log(this.state.comments);
     event.preventDefault();
     const newComment = {
       text: this.state.comment,

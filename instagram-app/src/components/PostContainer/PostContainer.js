@@ -12,11 +12,11 @@ const PostContainer = props => {
     <h2 className="user">{props.data.username}</h2>
    </div>
    <img src={props.data.imageUrl} alt="post"></img>
-   {
-   
-     <CommentSection key={props.id} data={props.data.comments} />
-    
-   }
+   <div className="like-container">
+    <i className="far fa-heart fa-x1"></i>
+    <i className="far fa-comment fa-x1"></i>
+    </div>
+   <CommentSection key={props.id} data={props.data.comments} />
   </div>
  );
 }
