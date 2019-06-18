@@ -12,15 +12,13 @@ const PostContainer = props => {
     <h2 className="user">{props.data.username}</h2>
    </div>
    <img src={props.data.imageUrl} alt="post"></img>
-   {
-    props.data.comments.map(comments => (
-     <CommentSection data={comments} />
-    ))
-   }
+   <div className="like-container">
+    <i className="far fa-heart fa-x1"></i>
+    <i className="far fa-comment fa-x1"></i>
+    </div>
+   <CommentSection key={props.id} data={props.data.comments} />
   </div>
  );
-
-
 }
 PostContainer.propTypes = {
  comments: PropTypes.arrayOf(PropTypes.string)
